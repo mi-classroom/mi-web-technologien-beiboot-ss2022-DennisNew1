@@ -102,3 +102,23 @@ dist
 
 # TernJS port file
 .tern-port
+
+.DS_Store
+node_modules
+/dist
+
+# local env files
+.env.local
+.env.*.local
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# json with images metadata
+src/assets/cda-paintings-2022-04-22.de.json
