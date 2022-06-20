@@ -1,19 +1,19 @@
 <template>
   <div id="app">
-    <OverviewMasterpieces></OverviewMasterpieces>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import OverviewMasterpieces from './components/OverviewMasterpieces.vue'
-
 export default {
-  name: 'App',
-  components: {
-    OverviewMasterpieces
-  }
+  name: 'App'
 }
 </script>
 
 <style>
+  #app, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
 </style>
